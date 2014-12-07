@@ -1,14 +1,74 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Gpk</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+<%#*<!DOCTYPE html>%>
+<%#*<html>%>
+<%#*<head>%>
+  <%#*<title>Gpk</title>%>
+  <%#= stylesheet_link_tag    "application", :media => "all" %>
+  <%#= javascript_include_tag "application" %>
+  <%#= csrf_meta_tags %>
+<%#*</head>%>
+<%#*<body>%>
 
-<%= yield %>
+<%#= yield %>
 
-</body>
+<%#*</body>%>
+<%#*</html>%>
+
+<html lang="en">
+  <head>
+    <title>GPK</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/superfish.css">
+  </head>
+  <body class="page-1">
+  <!--==============================header=================================-->
+   <!-- <header>
+        <div class="container_12">
+            <div class="row">
+                <div class="grid_12">
+                    <nav>
+                        <ul class="sf-menu sf-js-enabled sf-arrows">
+                            <li class= <%= params[:controller] == "home" && params[:action] == "index" ? "current" : ""%>>
+                              <%= link_to "Home", home_path %>
+                            </li>
+                            <li>
+                               <%= link_to "Restaurants", restaurants_path%>
+                            </li>
+                            <li class= <%= params[:controller] == "home" && params[:action] == "about" ? "current" : ""%>>
+                              <%= link_to "About", about_path%>
+                            <li class= <%= params[:controller] == "home" && params[:action] == "contact" ? "current" : ""%>>
+                              <%= link_to "Contacts", contact_path%>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            
+        </div>
+    </header> -->
+
+    <!--=======content================================-->
+
+      <%= yield %>
+    
+    <!--=======footer=================================-->
+
+    <footer>
+        <div class="container_12">
+            <div class="row">
+                <div class="grid_12">
+                    <%= link_to "Ghar Pe Khaana", "/", :class => "f-logo" %>
+                    <span class="copyright">© <span id="copyright-year">2014</span> <!--|
+                      <%= link_to "Privacy Policy", privacy_policy_path, :class=> "h-underline" %>
+                     </span> -->
+                    <!--{%FOOTER_LINK} -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" id="toTop" style="right: 50%; margin-right: -193px; display: none;"><span id="toTopHover"></span></a></body></html>
+  </body>
 </html>

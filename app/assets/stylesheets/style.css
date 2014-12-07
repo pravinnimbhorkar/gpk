@@ -115,8 +115,10 @@
 	.h-underline:hover { text-decoration: underline;}
 	.underline {text-decoration: underline;}
 	.upp {text-transform: uppercase;}
+	.low {text-transform: lowercase !important;}
+	.cap {text-transform: capitalize;}
 	.transition {transition: all 0.4s ease;}
-
+        a .low{text-transform: lowercase !important;}
 	.clearfix { *zoom: 1;}
 	.clearfix:before,.clearfix:after {display: table; content: "";line-height: 0;}
 	.clearfix:after { clear: both;}

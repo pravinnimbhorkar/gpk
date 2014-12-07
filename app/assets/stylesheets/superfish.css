@@ -42,7 +42,7 @@ nav:after { background: url(/assets/menu_bg-2.gif) 0 0 no-repeat; right: -31px;}
     position: relative;
 	vertical-align: middle;
 	padding: 5px 23px 11px;
-	text-transform: lowercase;
+	text-transform: lowercase !important;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;

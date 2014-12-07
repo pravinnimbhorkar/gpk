@@ -55,6 +55,11 @@ Gpk::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
-  resources :reviews
+  resources :reviews, :restaurants
+  match 'contact' => 'home#contact',    :as => :contact
+  match 'about'  => 'home#about', :as => :about
+  match 'terms' => 'home#terms',  :as => :terms
+  match 'privacy_policy' => 'home#privacy_policy',  :as => :privacy_policy
+  match 'home'  => 'home#index',  :as => :home
   root :to => "home#index"
 end

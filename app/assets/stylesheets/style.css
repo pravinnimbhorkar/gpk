@@ -428,7 +428,7 @@ header { background: url(/assets/bg-2.gif) 0 0 repeat;}
 
 /************Footer************/
 
-footer { padding-top: 37px; padding-bottom: 37px;}
+footer { padding-top: 20px; padding-bottom: 20px;}
 .f-logo { display: inline-block; font-family: 'Patrick Hand SC', cursive; font-size: 30px; line-height: 30px; color: #525252;}
 .copyright { display: inline-block; padding: 11px 0 0 5px; font-size: 13px; line-height: 22px; color: #525050;}
 

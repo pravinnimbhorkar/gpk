@@ -34785,3 +34785,80 @@ Served asset /skeleton.css - 304 Not Modified (0ms)
 
 Started GET "/assets/font-awesome.css" for 127.0.0.1 at 2014-12-07 19:38:07 +0530
 Served asset /font-awesome.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-08 13:33:48 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html within layouts/application (17.6ms)
+Completed 200 OK in 119ms (Views: 118.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-08 13:33:49 +0530
+Served asset /style.css - 200 OK (144ms)
+
+
+Started GET "/assets/superfish.css" for 127.0.0.1 at 2014-12-08 13:33:49 +0530
+Served asset /superfish.css - 200 OK (88ms)
+
+
+Started GET "/assets/logo-1.png" for 127.0.0.1 at 2014-12-08 13:33:49 +0530
+Served asset /logo-1.png - 200 OK (96ms)
+
+
+Started GET "/assets/skeleton.css" for 127.0.0.1 at 2014-12-08 13:33:49 +0530
+Served asset /skeleton.css - 200 OK (194ms)
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-12-08 13:33:50 +0530
+Served asset /reset.css - 200 OK (46ms)
+
+
+Started GET "/assets/font-awesome.css" for 127.0.0.1 at 2014-12-08 13:33:50 +0530
+Served asset /font-awesome.css - 200 OK (97ms)
+
+
+Started GET "/assets/bord-2.gif" for 127.0.0.1 at 2014-12-08 13:33:50 +0530
+Served asset /bord-2.gif - 200 OK (104ms)
+
+
+Started GET "/assets/ui.totop.png" for 127.0.0.1 at 2014-12-08 13:33:50 +0530
+Served asset /ui.totop.png - 200 OK (122ms)
+
+
+Started GET "/assets/bg-2.gif" for 127.0.0.1 at 2014-12-08 13:33:50 +0530
+Served asset /bg-2.gif - 200 OK (68ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2014-12-08 13:33:52 +0530
+Served asset /favicon.ico - 200 OK (144ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-08 13:35:12 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html within layouts/application (1.9ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/superfish.css" for 127.0.0.1 at 2014-12-08 13:35:12 +0530
+Served asset /superfish.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo-1.png" for 127.0.0.1 at 2014-12-08 13:35:12 +0530
+Served asset /logo-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2014-12-08 13:35:12 +0530
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome.css" for 127.0.0.1 at 2014-12-08 13:35:12 +0530
+Served asset /font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skeleton.css" for 127.0.0.1 at 2014-12-08 13:35:12 +0530
+Served asset /skeleton.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2014-12-08 13:35:12 +0530
+Served asset /reset.css - 304 Not Modified (0ms)
